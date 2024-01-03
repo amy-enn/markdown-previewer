@@ -17,7 +17,7 @@ To set up the Markdown Previewer on your local machine, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/amy-enn/react-markdown-previewer
+git clone https://github.com/amy-enn/markdown-previewer
 ```
 
 2. Install dependencies:
