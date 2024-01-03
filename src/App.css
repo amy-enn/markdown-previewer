@@ -1,0 +1,80 @@
+.App {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: lightcoral;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+#textareaPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+textarea, #outputBox {
+  width: 300px;
+  height: 400px;
+  font-size: .8rem;
+  background-color: linen;
+  border-radius: 20px;
+}
+
+img {
+  max-width: 200px;
+}
+
+.pWhite {
+  color: white;
+  text-align: center;
+}
+
+#inputBox {
+  border: 10px solid lightgreen;
+  padding: 5px;
+}
+
+#outputBox {
+  border: 10px solid lightseagreen;
+  padding: 5px;
+
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 775px) {
+  #textareaPanel {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #inputBox {
+    margin-bottom: 2rem;
+  }
+  
+  textarea, #outputBox {
+    width: 400px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  textarea, #outputBox {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+
+
+
